@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+}
+#n1 button{
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+#n1 button:hover{
+    background-color: white;
+}
+#n1 img{
+    padding-bottom: 15px;
+}
+#n1{
+height: 50px;
+background-color:  rgb(243, 212, 34);
+}
+#n2{
+}
+.d1{
+ height: 600px;
+ padding-top: 200px;
+ padding-left: 100px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.d1 button{
+ background-color:  rgb(243, 212, 34);
+ font-size: 20px;
+ border: none;
+ border-radius: 5px;
+ padding: 5px;
+
+}
+.d1 button:hover{
+    background-color: rgb(231, 223, 223);
+    box-shadow: 10px 0px 5px 5px rgba(0, 0, 0, 0.671);
+   
+}
+.d1 p{
+}
+.d1 h1{
+    font-size: 70px;
+
+}
+.a1{
+}
+.d2{
+
+    height: 600px;
+      
+
+}
+.d2 img{
+    height:600px ;
+   margin-left: 50px;
+  
+}
+#n4{
+    background-color:  rgb(243, 212, 34);
+}
+@media only screen and (max-width: 1100px) {
+    .d1 h1{
+        font-size: 50px;
+    }
+    }
+    @media only screen and (max-width: 1000px) {
+        .d2 img{
+           margin-left: 30px;
+        }
+    }
+    @media only screen and (max-width: 900px) {
+        .d1{
+            padding-left: 50px;
+        }
+    }
+    @media only screen and (max-width: 850px) {
+        .d1 button{
+            font-size:15px ;
+        }
+        .d1 p{
+            font-size:10px ;
+        }
+        .d1 h1{
+            font-size: 40px;
+        
+        }
+        .d2 img{
+            margin-left: 0px;
+         }
+     }
+     @media only screen and (max-width: 632px) {
+        .d1 h1{
+            font-size: 35px;
+        
+        }
+    }
+    @media only screen and (max-width: 576px) {
+        #n3{
+            flex-direction: column-reverse;
+        }
+        .d1{
+            height: 400px;
+            padding-top: 50px;
+            padding-left: 150px;
+           font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+           }
+    }
+    #b3{
+
+    }
+
+    #b4{
+    }
+    #b5{
+
+    }
+    #b2{
+        margin-top: 10px;
+    }
+    #b2 img{
+        margin-top: 5px;
+
+    }
+    
+    
